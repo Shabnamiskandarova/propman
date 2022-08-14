@@ -1,26 +1,31 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-<title> Contact Form by Shabnam</title>
-<style>
-.row{
-margin:0 10% !important
-}
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
 
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
 
+<input type=hidden name="orgid" value="00D8d000005zGCB">
+<input type=hidden name="retURL" value="https://netmediallc2-dev-ed.lightning.force.com/lightning/o/Case/list?filterName=00B8d000009HIkDEAW">
 
-
-</style>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="shabnamiskandarova2020@gmail.com">                               -->
+<!--  ----------------------------------------------------------------------  -->
 <body>
 <div class="mt-5 col-5 card text-center mx-auto">
       <br>
       <h5>Dear, customer. Please fill out the form below.</h5><br>
-<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
   <div class="row text-center">
         <div class="col-6">
           <input class="form-control" id="first_name" placeholder="First name" aria-label="First name" name="first_name" type="text" /><br>
